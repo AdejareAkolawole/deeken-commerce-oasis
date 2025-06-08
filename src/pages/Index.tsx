@@ -98,8 +98,8 @@ const Index = () => {
                 <input
                   type="text"
                   placeholder="Search for products, brands and more..."
-                  className="w-full px-4 py-2 pr-12 rounded-lg border-0 focus:ring-2"
-                  style={{ backgroundColor: "#FDFFF6", focusRingColor: "#E2F87B" }}
+                  className="w-full px-4 py-2 pr-12 rounded-lg border-0 focus:ring-2 focus:ring-lime-300"
+                  style={{ backgroundColor: "#FDFFF6" }}
                 />
                 <Search className="absolute right-3 top-2.5 h-5 w-5" style={{ color: "#316C40" }} />
               </div>
@@ -266,8 +266,8 @@ const Index = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 rounded-lg border-0 focus:ring-2"
-              style={{ backgroundColor: "#FDFFF6", focusRingColor: "#E2F87B" }}
+              className="flex-1 px-4 py-2 rounded-lg border-0 focus:ring-2 focus:ring-lime-300"
+              style={{ backgroundColor: "#FDFFF6" }}
             />
             <Button style={{ backgroundColor: "#E2F87B", color: "#031A09" }}>
               Subscribe
